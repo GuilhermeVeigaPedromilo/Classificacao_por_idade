@@ -5,29 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Fases de Vida</title>
+    <title>Classificação por Idade</title>
 </head>
 
 <body>
-
-    <h1>Fases de Vida</h1>
-
+    <div class="d"><h1>Classificação por Idade</h1></div>
+    <img src="fase.jpg">
+    <br>
+    <div class="e">
     <form onsubmit="return calcular(event)">
         <div class="a">
             <input type="text" nome="nome" id="nome" placeholder="Digite seu nome ex.: Giseli">
-
+        </div>
+            <br>
+        <div class="b">
             <input type="text" nome="ano" id="ano" placeholder="Digite sua idade, ex.: 18" /><br><br>
             <P></P>
-
+        </div>    
+            <br>
+        <div class="c">
+            <input type="submit" value="Avaliar idade" class="button">
         </div>
-
-            <input type="submit" value="Calcular fase de vida" class="button">
-        
     </form>
+</div>
 
     <div id="resultado" class="resultado"></div>
 <br>
 <br>
+
+<div class="rodape">© 2023-SENAI "Celso Charuri" - Sumaré - SP</div>
     <script src="imc.js"></script>
 
 </div>

@@ -18,7 +18,7 @@
             if (idade >= 1 && idade <= 11) {
                 resultado = document.getElementById("resultado");
                 resultado.innerHTML = "<br/>" + nome + "<br/> A pessoa é criança";
-            } else if (idade >= 12 && idade <= 21) {
+            } else if (idade >= 12 && idade <= 20) {
                 resultado = document.getElementById("resultado");
                 resultado.innerHTML = "<br/>" + nome + "<br/> A pessoa é adolescente";
             } else if (idade >= 21 && idade <= 65) {
