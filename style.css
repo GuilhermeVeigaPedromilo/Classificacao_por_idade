@@ -1,11 +1,9 @@
 html {
     display: flex;
     justify-content: center;
-    border: 40px solid rgba(248, 223, 194, 0.986);
 }
 body {
-    border: 10px solid rgba(248, 223, 194, 0.986);
-    border-radius: 10px;
+
 }
 h1 {
     font-family: Georgia;
